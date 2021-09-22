@@ -204,21 +204,21 @@ main section img {
     display: block;
     padding: 2% 3%;
     border-radius: 30px;
-    margin: 3% auto;
+    margin: 3% auto 15% auto;
     font-size: 1em;
     background-color: lightsteelblue;
     color: white;
     width: 20%;
 }
 
-.fa-long-arrow-alt-down {
+.arrow-mac-2 {
     margin-right: 3.5%;
     color: white;
 }
 
 /* footer */
 footer {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     /* debugging */
     height: 900px;
     background-color: darkblue;
@@ -226,9 +226,6 @@ footer {
 
 .footer-nav {
     padding: 50px;
-    /* debugging */
-    background-color: khaki;
-    height: 600px;
 }
 
 .footer-nav::after {
@@ -237,21 +234,74 @@ footer {
     clear: both;
 }
 
+/* colonna sx footer */
 .col-sx {
     float: left;
-    width: 40%;
+    width: 25%;
     margin-right: 5%;
-    /* debugging */
-    background-color: lavenderblush;
-    height: 100%;
 }
 
+.col-sx h3 {
+    font-size: 1.5em;
+    color: mediumblue;
+    padding-bottom: 5%;
+}
+
+.col-sx img {
+    width: 5%;
+}
+
+.col-sx span {
+    display: inline-block;
+    font-size: 0.9em;
+    color: white;
+}
+
+.fa-chevron-square-down {
+    font-size: 0.9em;
+    color: white;
+}
+
+.social {
+    padding: 5% 0;
+}
+
+.fab {
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+    padding-right: 7%;
+}
+
+/* colonna dx footer */
 .col-dx {
     float: left;
-    width: 55%;
-    /* debugging */
-    background-color: lavenderblush;
-    height: 100%;
+    width: 70%;
+}
+
+.colonne::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-footer {
+    float: left;
+    width: fit-content;
+    margin-right: 5%;
+}
+
+.col-footer h5 {
+    color: mediumblue;
+    font-size: 1.2em;
+}
+
+.col-footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 0.9em;
+    padding-top: 8%;
 }
 
 footer section {
