@@ -1,5 +1,100 @@
+/* generali */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* header */
+header {
+    /* debugging */
+    background-color: aqua;
+    height: 500px;
+}
+
+header nav {
+    width: 90%;
+    margin: 0 auto;
+    /* debugging */
+    background-color: beige;
+    height: 100px;
+}
+
+header section {
+    width: 60%;
+    margin: 50px auto;
+    /* debugging */
+    background-color: bisque;
+    height: 300px;
+}
+
+/* blocco principale pagina */
+main section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    margin: 5%;
+    width: 40%;
+    /* debugging */
+    background-color: cornflowerblue;
+    height: 800px;
+}
+
+.no-clearfix {
+    width: 100%;
+    /* debugging */
+    background-color: cornflowerblue;
+    height: 800px;    
+}
+
+/* footer */
+footer {
+    margin-top: 50px;
+    /* debugging */
+    height: 900px;
+    background-color: darkblue;
+}
+
+.footer-nav {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+    /* debugging */
+    background-color: khaki;
+    height: 600px;
+}
+
+.footer-nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-sx {
+    float: left;
+    width: 40%;
+    margin-right: 5%;
+    /* debugging */
+    background-color: lavenderblush;
+    height: 100%;
+}
+
+.col-dx {
+    float: left;
+    width: 55%;
+    /* debugging */
+    background-color: lavenderblush;
+    height: 100%;
+}
+
+footer section {
+    width: 90%;
+    margin: 50px auto;
+    /* debugging */
+    background-color: lightblue;
+    height: 200px;
 }
