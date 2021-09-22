@@ -22,38 +22,11 @@ header {
     background-size: cover;
     background-position: center;
     /* debugging */
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 500px;
 }
 
 /* header nav */
-header nav::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-nav div {
-    float: left;
-    height: 100%;
-    line-height: 100%;
-    vertical-align: middle;
-}
-
-.col-center {
-    text-align: center;
-    width: 84%;
-    /* margin: 0 5%; */
-}
-
-.col-side {
-    width: fit-content;
-}
-
-header nav ul {
-    height: 100%;
-}
-
 header nav ul li {
     display: inline-block;
     height: fit-content;
@@ -287,7 +260,7 @@ footer {
 
 .col-footer {
     float: left;
-    width: fit-content;
+    width: 18%;
     margin-right: 5%;
 }
 
@@ -305,8 +278,31 @@ footer {
 }
 
 footer section {
-    margin: 50px auto;
+    margin: 0 auto;
+    border-top: 1px solid lightgray;
     /* debugging */
-    background-color: lightblue;
-    height: 200px;
+    /* background-color: lightblue;
+    height: 200px; */
+}
+
+footer section img, footer section a {
+    display: inline-block;
+    line-height: 0.6;
+    vertical-align: middle;
+    height: 30px;
+    margin-top: 2%;
+}
+
+footer section img {
+    width: 10%;
+    margin-right: 79.8%;
+}
+
+footer section a {
+    text-decoration: none;
+    color: white;
+    padding: 1% 2%;
+    border-radius: 30px;
+    background-color: lightsteelblue;
+    font-size: 0.9em;
 }
