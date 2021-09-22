@@ -5,27 +5,133 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Whitney', 'Helvetica Neue',Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.centered {
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* header */
 header {
+    background-image: url('../img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     /* debugging */
     background-color: aqua;
     height: 500px;
 }
 
+/* header nav */
+header nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav div {
+    float: left;
+    height: 100%;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+.col-center {
+    text-align: center;
+    width: 84%;
+    /* margin: 0 5%; */
+}
+
+.col-side {
+    width: fit-content;
+}
+
+header nav ul {
+    height: 100%;
+}
+
+header nav ul li {
+    display: inline-block;
+    height: fit-content;
+}
+
+header nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    /* padding: 0 2%; */
+}
+
+header nav button {
+    border: none;
+    background-color: white;
+    padding: 15% 25%;
+    border-radius: 20px;
+}
+
+header nav button a {
+    text-decoration: none;
+    color: black;
+    font-size: x-small;
+    font-weight: bold;
+}
+
 header nav {
-    width: 90%;
-    margin: 0 auto;
     /* debugging */
-    background-color: beige;
+    background-color: red;
     height: 100px;
 }
 
+/* header section */
 header section {
     width: 60%;
     margin: 50px auto;
+    color: white;
+    text-align: center;
     /* debugging */
-    background-color: bisque;
-    height: 300px;
+    /* background-color: black;
+    height: 300px; */
+}
+
+
+
+header section h1 {
+    font-size: 3em;
+    padding: 3%;
+}
+
+header section p {
+    font-size: 1em;
+    line-height: 1.6;
+    padding: 0 2%;
+}
+
+header section span {
+    display: inline-block;
+    padding: 2% 3%;
+    border-radius: 30px;
+    margin: 3% 2%;
+    font-size: 1em;
+}
+
+#mac {
+    background-color: white;
+    color: black;
+    width: 30%;
+}
+
+.fa-long-arrow-alt-down {
+    margin-right: 3.5%;
+}
+
+#browser {
+    background-color: black;
+    width: 40%;
 }
 
 /* blocco principale pagina */
@@ -60,8 +166,6 @@ footer {
 }
 
 .footer-nav {
-    width: 90%;
-    margin: 0 auto;
     padding: 50px;
     /* debugging */
     background-color: khaki;
@@ -92,7 +196,6 @@ footer {
 }
 
 footer section {
-    width: 90%;
     margin: 50px auto;
     /* debugging */
     background-color: lightblue;
