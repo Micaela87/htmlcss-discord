@@ -24,46 +24,54 @@ header {
     /* debugging */
     /* background-color: aqua; */
     height: 500px;
+    margin-bottom: 5%;
 }
 
 /* header nav */
-header nav ul li {
+header nav img, header nav ul, header nav a {
     display: inline-block;
     height: fit-content;
+    line-height: 5;
+    vertical-align: middle;
+}
+
+header nav img {
+    width: 10%;
+}
+
+header nav ul {
+    width: 80.5%;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 2%;
 }
 
 header nav ul li a {
     display: block;
     color: white;
     text-decoration: none;
-    font-size: small;
+    font-size: 1em;
     /* padding: 0 2%; */
 }
 
-header nav button {
-    border: none;
+#accedi {
     background-color: white;
-    padding: 15% 25%;
-    border-radius: 20px;
-}
-
-header nav button a {
+    padding: 0.5% 2%;
+    border-radius: 30px;
     text-decoration: none;
     color: black;
-    font-size: x-small;
-    font-weight: bold;
-}
-
-header nav {
-    /* debugging */
-    background-color: red;
-    height: 100px;
+    font-size: 1em;
+    height: fit-content;
+    line-height: normal;
 }
 
 /* header section */
 header section {
     width: 60%;
-    margin: 50px auto;
+    margin: 5% auto;
     color: white;
     text-align: center;
     /* debugging */
@@ -117,10 +125,7 @@ main section::after {
 
 .col {
     float: left;
-    margin: 5%;
-    /* debugging */
-    /* background-color: cornflowerblue;
-    height: 800px; */
+    margin: 0 5%;
 }
 
 .col-1 {
