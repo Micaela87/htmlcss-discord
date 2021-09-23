@@ -63,7 +63,7 @@ header nav ul li a {
     border-radius: 30px;
     text-decoration: none;
     color: black;
-    font-size: 1em;
+    font-size: 0.8em;
     height: fit-content;
     line-height: normal;
 }
@@ -74,9 +74,6 @@ header section {
     margin: 5% auto;
     color: white;
     text-align: center;
-    /* debugging */
-    /* background-color: black;
-    height: 300px; */
 }
 
 header section h1 {
@@ -174,15 +171,26 @@ main section img {
     width: 80%;
 }
 
+#stars {
+    width: 45%;
+    height: 45px;
+    margin: 0 auto;
+    background-image: url('../img/stars.svg');
+    background-position: center bottom;
+    background-size: contain;
+}
+
 .no-clearfix h3 {
     font-size: 1.5em;
+    line-height: 4;
+    vertical-align: bottom;
 }
 
 #mac-2 {
     display: block;
     padding: 2% 3%;
     border-radius: 30px;
-    margin: 3% auto 15% auto;
+    margin: 5% auto 15% auto;
     font-size: 1em;
     background-color: lightsteelblue;
     color: white;
@@ -196,14 +204,11 @@ main section img {
 
 /* footer */
 footer {
-    /* margin-top: 50px; */
-    /* debugging */
-    height: 900px;
     background-color: darkblue;
 }
 
 .footer-nav {
-    padding: 50px;
+    padding: 5% 0;
 }
 
 .footer-nav::after {
@@ -215,8 +220,8 @@ footer {
 /* colonna sx footer */
 .col-sx {
     float: left;
-    width: 25%;
-    margin-right: 5%;
+    width: 20%;
+    margin-right: 10%;
 }
 
 .col-sx h3 {
@@ -284,10 +289,8 @@ footer {
 
 footer section {
     margin: 0 auto;
+    padding-bottom: 5%;
     border-top: 1px solid lightgray;
-    /* debugging */
-    /* background-color: lightblue;
-    height: 200px; */
 }
 
 footer section img, footer section a {
