@@ -87,15 +87,16 @@ header section p {
     padding: 0 2%;
 }
 
-header section span {
+header section span a {
     display: inline-block;
     padding: 2% 3%;
     border-radius: 30px;
     margin: 3% 2%;
     font-size: 1em;
+    text-decoration: none;
 }
 
-#mac {
+#mac a {
     background-color: white;
     color: black;
     width: 30%;
@@ -105,9 +106,10 @@ header section span {
     margin-right: 3.5%;
 }
 
-#browser {
+#browser a {
     background-color: black;
     width: 40%;
+    color: white;
 }
 
 /* blocco principale pagina */
@@ -134,7 +136,7 @@ main section::after {
 }
 
 .grey {
-    background-color: lightgray;
+    background-color: #f6f6f6;
 }
 
 main section h2 {
@@ -154,8 +156,6 @@ main section img {
 .no-clearfix {
     width: 100%;
     text-align: center;
-    /* debugging */
-    /* background-color: cornflowerblue; */
     height: fit-content;
 }
 
@@ -186,15 +186,16 @@ main section img {
     vertical-align: bottom;
 }
 
-#mac-2 {
+#mac-2 a {
     display: block;
     padding: 2% 3%;
     border-radius: 30px;
     margin: 5% auto 15% auto;
     font-size: 1em;
-    background-color: lightsteelblue;
+    background-color: #8ea1e1;
     color: white;
     width: 20%;
+    text-decoration: none;
 }
 
 .arrow-mac-2 {
@@ -204,7 +205,7 @@ main section img {
 
 /* footer */
 footer {
-    background-color: darkblue;
+    background-color: #23272a;
 }
 
 .footer-nav {
@@ -226,7 +227,7 @@ footer {
 
 .col-sx h3 {
     font-size: 1.5em;
-    color: mediumblue;
+    color: #7188d9;
     padding-bottom: 5%;
 }
 
@@ -236,11 +237,6 @@ footer {
 
 .col-sx span {
     display: inline-block;
-    font-size: 0.9em;
-    color: white;
-}
-
-.fa-chevron-square-down {
     font-size: 0.9em;
     color: white;
 }
@@ -275,7 +271,7 @@ footer {
 }
 
 .col-footer h5 {
-    color: mediumblue;
+    color: #7188d9;
     font-size: 1.2em;
 }
 
@@ -311,6 +307,6 @@ footer section a {
     color: white;
     padding: 1% 2%;
     border-radius: 30px;
-    background-color: lightsteelblue;
+    background-color: #8ea1e1;
     font-size: 0.9em;
 }
