@@ -24,7 +24,6 @@ header {
     /* debugging */
     /* background-color: aqua; */
     height: 500px;
-    margin-bottom: 5%;
 }
 
 /* header nav */
@@ -54,7 +53,6 @@ header nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1em;
-    /* padding: 0 2%; */
 }
 
 #accedi {
@@ -114,7 +112,8 @@ header section span a {
 
 /* blocco principale pagina */
 main section {
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 5% 0;
 }
 main section::after {
     content: "";
@@ -157,10 +156,11 @@ main section img {
     width: 100%;
     text-align: center;
     height: fit-content;
+    /* padding-bottom: 0; */
 }
 
 .no-clearfix h2 {
-    padding: 5% 10% 2% 10%;
+    padding: 0 10% 2% 10%;
 }
 
 .no-clearfix p {
@@ -190,7 +190,7 @@ main section img {
     display: block;
     padding: 2% 3%;
     border-radius: 30px;
-    margin: 5% auto 15% auto;
+    margin: 5% auto 1% auto;
     font-size: 1em;
     background-color: #8ea1e1;
     color: white;
